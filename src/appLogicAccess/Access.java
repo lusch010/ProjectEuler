@@ -47,7 +47,7 @@ public class Access {
 	// TODO: implement load function
 	public static void loadMaxValues() {
 		maxValues = new double[3];
-		maxValues[0] = 1000.0;
+		maxValues[0] = 999.0;
 		maxValues[1] = 4000000.0;
 		maxValues[2] = 600851475143.0;
 	}

@@ -12,7 +12,7 @@ public class Multiples implements Problem {
 	@Override
 	public double getSolution(double max) {
 		double sum = 0.0;
-		for (int i = 3; i < max; i++) {
+		for (int i = 3; i <= max; i++) {
 			if (isMultiple(i))
 				sum += i;
 		}
