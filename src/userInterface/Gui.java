@@ -100,7 +100,7 @@ public class Gui extends JFrame {
 	public static void main(String[] args) {
 		Access.loadMaxValues();
 
-		System.out.println(Access.getSolution(0, 999.0));
+		System.out.println(Access.getSolution(0, 1200.0));
 		System.out.println(Access.getSolution(1, 4000000.0));
 		System.out.println(Access.getSolution(2, 600851475143.0));
 		
